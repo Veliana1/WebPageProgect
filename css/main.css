@@ -1,17 +1,16 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: lightslategrey;
+    font-family: 
+Lucida Sans Unicode;
     font-size: 0.95em;
     line-height: 1.5em;
 }
 
 ::selection {
-    color: #000; 
-    background: #ff0;
+    color: #000;
+    background: #f000;
 }
 
 h1 {
@@ -34,17 +33,17 @@ p {
 h2, h3 {
     font-weight: normal;
     margin-left: 1em;
-    line-height: 1em;
+    line-height: 2em;
 }
 
 a {
-    color:darkcyan;
+    color:lightpink;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: aquamarine;
     text-decoration: none;
 }
 
@@ -53,7 +52,7 @@ iframe {
     margin: auto;
     width: 90%;
     height: 5700px;
-    border: 2px solid darkcyan;
+    border: 2px solid lightpink;
 }
 
 footer {
